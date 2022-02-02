@@ -85,7 +85,7 @@ export function s3Assets(config: S3Config | undefined): S3AssetsAPI {
       },
       async upload(stream, id) {
         const buffer = await streamToBuffer(stream);
-        const fileType = await fromBuffer(buffer);
+        const fileType = fromBuffer(buffer);
         const { width, height } = sizeOf(buffer);
         const filesize = buffer.length;
 
