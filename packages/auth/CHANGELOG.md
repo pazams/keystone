@@ -1,4 +1,20 @@
-# @keystone-next/auth
+# @keystone-6/auth
+
+## 1.0.2
+
+### Patch Changes
+
+- [`96bf833a2`](https://github.com/keystonejs/keystone/commit/96bf833a23b1a0a5d365cf394467a943cc481b38) Thanks [@Noviny](https://github.com/Noviny)! - When redirecting to the homepage, the `from` query parameter unnecessarily displayed `=/`.
+  This patch fixes that so it is only provided as a query parameter when needed.
+
+## 1.0.1
+
+### Patch Changes
+
+- [#7091](https://github.com/keystonejs/keystone/pull/7091) [`5ac8ef453`](https://github.com/keystonejs/keystone/commit/5ac8ef4533198ed8aa732131959ddd09758bda8d) Thanks [@Noviny](https://github.com/Noviny)! - Add titles to initi and sign-in pages
+
+- Updated dependencies [[`5ac8ef453`](https://github.com/keystonejs/keystone/commit/5ac8ef4533198ed8aa732131959ddd09758bda8d), [`54c056c58`](https://github.com/keystonejs/keystone/commit/54c056c58af60d2ab86fd5590df5544e0a0132f9), [`53f3ca6fd`](https://github.com/keystonejs/keystone/commit/53f3ca6fdbef16b305a41240f107754ad6823ff7), [`c51f8f7a0`](https://github.com/keystonejs/keystone/commit/c51f8f7a0b18fa53d45c026664454dbb6cd60694), [`30b3cacb0`](https://github.com/keystonejs/keystone/commit/30b3cacb08601a8db445e3c7be85dee10d0d2958), [`911972098`](https://github.com/keystonejs/keystone/commit/911972098c1bdaa6e64a7aee028b3446e00106e5), [`1353c6290`](https://github.com/keystonejs/keystone/commit/1353c62906ee63d8f4006193f73357168208078c), [`1eed5d546`](https://github.com/keystonejs/keystone/commit/1eed5d54668757eb28cb3c8460631125d20b6722), [`8c7a54453`](https://github.com/keystonejs/keystone/commit/8c7a54453e740906c18222244f86c3d59ddd54a4), [`888cf021a`](https://github.com/keystonejs/keystone/commit/888cf021a1beee64937c00bc5b58f8b3628dbdd4)]:
+  - @keystone-6/core@1.0.1
 
 ## 1.0.0
 
@@ -34,6 +50,8 @@
 
 - Updated dependencies [[`7dddbe0fd`](https://github.com/keystonejs/keystone/commit/7dddbe0fd5b42a2596ba4dc0bbe1813cb54571c7), [`fb7844ab5`](https://github.com/keystonejs/keystone/commit/fb7844ab50c1d4a6d14b2ad46a568665f6661921), [`3c7a581c1`](https://github.com/keystonejs/keystone/commit/3c7a581c1e53ae49c9f74509de3927ebf2703bde), [`f4554980f`](https://github.com/keystonejs/keystone/commit/f4554980f6243a6545eee6c887d946ff25cd90e3)]:
   - @keystone-6/core@1.0.0
+
+# @keystone-next/auth
 
 ## 37.0.0
 
