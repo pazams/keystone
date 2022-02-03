@@ -1,5 +1,22 @@
 # @keystone-6/core
 
+## 1.1.0
+
+### Minor Changes
+
+- [#7249](https://github.com/keystonejs/keystone/pull/7249) [`827d7f57b`](https://github.com/keystonejs/keystone/commit/827d7f57b0925a4ac353ba0b9e6797ea291d91f5) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - The return types of `context.query` methods are now types based on the GraphQL return types rather than being `Record<string, any>`. Note all fields are optional because the types do not know what fields were selected in the `query` field.
+
+### Patch Changes
+
+- [#7253](https://github.com/keystonejs/keystone/pull/7253) [`518bd2e43`](https://github.com/keystonejs/keystone/commit/518bd2e437227fbd1a8f7fb947dcb11c57ffb7dd) Thanks [@gwyneplaine](https://github.com/gwyneplaine)! - Fixed popover behaviour to accomodate mobile usages.
+
+* [#7218](https://github.com/keystonejs/keystone/pull/7218) [`4f3d0a073`](https://github.com/keystonejs/keystone/commit/4f3d0a073dba50f22505af545402a2f1e38afe0d) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Fixed cards view in the relationship field not showing up for many relationships in the create view
+
+- [#7221](https://github.com/keystonejs/keystone/pull/7221) [`6cea02475`](https://github.com/keystonejs/keystone/commit/6cea02475b02528e5f04f0a5bca641367ca1584d) Thanks [@gwyneplaine](https://github.com/gwyneplaine)! - Improved how stacking contexts are organised in the Admin UI
+
+- Updated dependencies [[`518bd2e43`](https://github.com/keystonejs/keystone/commit/518bd2e437227fbd1a8f7fb947dcb11c57ffb7dd)]:
+  - @keystone-ui/popover@5.0.1
+
 ## 1.0.1
 
 ### Patch Changes
@@ -62,6 +79,7 @@
 - [#7005](https://github.com/keystonejs/keystone/pull/7005) [`fb7844ab5`](https://github.com/keystonejs/keystone/commit/fb7844ab50c1d4a6d14b2ad46a568665f6661921) Thanks [@gwyneplaine](https://github.com/gwyneplaine)! - Improve console output for when you need to restart the server because of schema changes
 
 # @keystone-next/keystone
+
 ## 29.0.0
 
 ### Major Changes
